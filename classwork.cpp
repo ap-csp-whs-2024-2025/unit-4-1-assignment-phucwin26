@@ -3,14 +3,16 @@
 
 int main()
 {
-  //SET age TO 16
-  int age = 16;
-  double price = 19.99;
-  bool hasPets = false;
+ add_xy = x + y;
+ sub_xy = x - y;
 
-  std::cout << age << "\n" << price << std::endl << hasPets << std::endl;
+ std:cout << add_xy << std:endl << sub_xy << std::endl;
 
-  std::cout << "I am " << age << " years old.\n";
-
+ intz = 10;
+ bool x_greater_z = x > z;
+ bool y_greater_x = y > x;
+ std::cout << "x > z is " << (x > z) << std::endl
+           << y_greater_x << std::endl;
+           
   return 0;
 }
